@@ -1,0 +1,15 @@
+.footer{
+margin-top: 325;
+background-color: blue;
+animation-name: animation1;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+color: yellow;
+}
+@keyframes animation1{
+    from{box-shadow :10px 10px 38px green}
+    to{box-shadow :10px 10px 38px purple}
+}
+body{
+    background-color: brown;
+}
